@@ -1,4 +1,5 @@
 <?php
+// use Illuminate\Support\Faceds\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $total = DB::table('users')->get()->count();
+    return view('welcome',compact('total'));
 });
 
 Route::resource('/projects','projectsController');
