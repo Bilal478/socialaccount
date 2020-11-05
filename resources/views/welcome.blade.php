@@ -81,9 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                {{-- @foreach($projects as $project)
-                    {{$project->title}}
-                    @endforeach --}}
+               Hello
                 </div>
 
                 <div class="links">
