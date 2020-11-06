@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-               {{$total}} 
+               {{$total}} Users 
                 </div>
 
                 <div class="links">
